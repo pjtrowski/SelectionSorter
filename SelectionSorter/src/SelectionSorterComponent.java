@@ -24,7 +24,7 @@ public void run() {
     sorter.merge();
     }
 catch (InterruptedException exception)
-{}
+{System.out.println(exception);}
     }
       }
 
